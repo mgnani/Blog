@@ -1,0 +1,10 @@
+.imagen_redes{
+    height: 20px;
+    margin: 0 10px;
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+.imagen_redes:hover{
+    filter: brightness(.5);
+  }

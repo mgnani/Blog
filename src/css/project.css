@@ -1,0 +1,56 @@
+.project{
+    width: 27%;
+    height: width;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.25) 25%, rgba(255, 255, 255, 0.25) 75%, rgba(255, 255, 255, 0.25) 100%);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 4s ease-in-out, box-shadow 1s ease;
+}
+.project img{
+    height: 70px;
+    margin: 10px;
+}
+.project h3{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.project p{
+    margin: 5px auto;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    width: 60%;
+}
+.project:hover #mi-svg {
+    filter: brightness(1000);
+  }
+  .project:hover{
+        background: linear-gradient(147deg, #fd3838 0%, #fe8a39 74%);
+        box-shadow: 0 0 30px #fd3838;
+        transition: background-color 4s ease-in-out, box-shadow .5s ease;
+    
+  }
+  .show .project{
+    animation: rebote 1s ;
+}
+  @keyframes rebote {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .project:nth-child(2) {
+    animation-delay: .5s;
+  }
+  
+  .project:nth-child(3) {
+    animation-delay: 1s;
+  }

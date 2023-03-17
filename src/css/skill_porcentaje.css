@@ -1,0 +1,22 @@
+table td{
+    width: 100%;
+    max-height: 12px;
+    line-height: 15px;
+}
+table {
+    letter-spacing: 0px;
+    width: 100%;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.porcentaje {
+    width: 90%;
+}
+.porcentaje div {
+    height: 4px;
+    background: linear-gradient(147deg, #fe8a39 0%,
+            #fd3838 74%);
+            border-radius: 2px;
+}

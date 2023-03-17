@@ -1,0 +1,27 @@
+footer {
+    height: 50px;
+    background-color: #00011B;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    position: static;
+    justify-content: center;
+}
+
+footer div {
+    display: inline;
+    text-align: center;
+    margin: 0 40px;
+}
+footer div p{
+    display: inline;
+    
+}
+footer span {
+    background: -webkit-linear-gradient(147deg, #fe8a39 0%,
+            #fd3838 74%);
+            padding: 2px;
+            border-radius: 5px;
+}

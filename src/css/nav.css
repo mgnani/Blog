@@ -1,0 +1,9 @@
+nav{
+    z-index: 5;
+    position: fixed;
+    height: 30px;
+    padding: 20px;
+}
+nav img{
+    height: 30px;
+}
