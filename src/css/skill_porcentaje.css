@@ -13,10 +13,10 @@ table {
 }
 .porcentaje {
     width: 90%;
+    padding-right: 10px;
 }
 .porcentaje div {
     height: 4px;
-    background: linear-gradient(147deg, #fe8a39 0%,
-            #fd3838 74%);
-            border-radius: 2px;
+    background: linear-gradient(147deg, #fe8a39 0%,#fd3838 74%);
+    border-radius: 2px;
 }

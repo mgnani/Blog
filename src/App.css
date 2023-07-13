@@ -1,4 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Sono:wght@300;400&display=swap');
+body{
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+/* Estilo para la barra de desplazamiento en .App */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Estilo para el riel de la barra de desplazamiento en .App */
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f100;
+}
+
+/* Estilo para el pulgar (scrollbar thumb) de la barra de desplazamiento en .App */
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px;
+}
+
+/* Estilo cuando el cursor está sobre la barra de desplazamiento en .App */
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
 
 body {
   width: 100%;
